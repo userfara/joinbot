@@ -2,7 +2,7 @@ import os
 import telebot
 from telebot.types import Message
 
-API_TOKEN = '7920696279:AAFTPkEuNh3oDU1NQGzIQuFF9qiVbjhs4H4'
+API_TOKEN = '7956116848:AAHsg8yg1EZOc7ZUGZkb2FXX5_lMa37Dxn4'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(content_types=['new_chat_members', 'left_chat_member'])
